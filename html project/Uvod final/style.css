@@ -1,0 +1,47 @@
+header{
+
+    text-align: center;
+    color: rgb(40,40,40); 
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    background-color: rgb(221, 225, 236);
+}
+
+.choice{
+
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(221, 225, 236);
+    transition: 0.2s;
+}
+
+.choice:hover{
+
+    background-color: rgb(197, 204, 224);
+    text-decoration: none
+}
+
+.text{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+a:link{
+    color: rgb(103, 104, 207);
+}
+a:visited{
+    color: rgb(36, 40, 109);
+}
+a:hover{
+    color: rgb(97, 98, 148);
+    text-decoration: none;       
+}
+a:active {
+    text-decoration: none;
+}
+div:hover{
+    text-decoration: none
+}
