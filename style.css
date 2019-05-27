@@ -1,0 +1,26 @@
+h1,h2{
+    font-family:  'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+table{
+    margin-top: 20px;
+    border-radius: 5px;  
+}
+
+td{
+
+}
+
+a{
+    padding: 15px 75px 15px 75px;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+    overflow: visible;
+}
+
+.hed{
+    padding: 10px;
+    background-color: slategrey;
+}
