@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(17, 25, 29, 0.40);
+    background-color: rgba(17, 25, 29, 0.137);
 }
 
 header{
@@ -21,7 +21,7 @@ li{
     float: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;   
+    text-align: center;
 }
 
 ul {
@@ -32,12 +32,13 @@ ul {
 
 a:link{
     padding: 5px 5px;
-    background-color: rgba(17, 25, 29, 0.40);
+    background-color: rgba(17, 25, 29, 0.425);
     font-size: 35px;
     display: block;
     text-decoration: none;
     color: white;
     border-radius: 5px;
+    transition: 200ms;
 }
 
 a:visited{
@@ -49,6 +50,7 @@ a:hover{
     text-decoration: none;
     color: white;
     background-color: rgba(23, 28, 31, 0.664);
+    transition: 200ms;
 }
 
 p{
@@ -58,7 +60,7 @@ p{
 }
 
 .nad{
-    background-color: rgba(17, 25, 29, 0.40);
+    background-color: rgba(23, 46, 58, 0.705);
 }
 
 .bigtext{
@@ -70,16 +72,10 @@ p{
     margin: auto;
 }
 
-.text{
-    
+.text{  
     width: 66.6%;
     margin: auto;
     padding-top: 45px;
-    
-}
-
-.leftborder{
-    border: rgba(17, 25, 29, 0.40)
 }
 
 
