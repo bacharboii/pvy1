@@ -1,5 +1,12 @@
+html{
+    height: 100%;
+}
+
 body{
     background-color: rgba(17, 25, 29, 0.137);
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 150px;
 }
 
 header{
@@ -42,6 +49,41 @@ a:hover{
     transition: 200ms;
 }
 
+p{
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr{
+    border-width: 4px;
+    background-color: #FFD400;
+}
+
+footer{
+    background-color: rgba(23, 46, 58, 0.705);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+}
+
 .center{
     margin: auto;
 }
+
+.text{  
+    width: 66.6%;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.ytext{
+    color: #FFD400 !important;
+}
+
+
