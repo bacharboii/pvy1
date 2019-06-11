@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: rgba(17, 25, 29, 0.137);
+    background-color: rgba(207, 185, 167, 0.137);
 }
 
 header{
@@ -55,8 +60,19 @@ a:hover{
 
 p{
     text-align: justify;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Quicksand', sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+hr{
+    border-width: 4px;
+    background-color: #FFD400;
+}
+
+footer{
+    padding: 30px;
+    text-align:center;
 }
 
 .nad{
@@ -77,5 +93,3 @@ p{
     margin: auto;
     padding-top: 45px;
 }
-
-
