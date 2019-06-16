@@ -47,8 +47,8 @@ a:hover{
     transition: 200ms;
 }
 
-p{
-    text-align: justify;
+.p{
+    text-align: left;
     font-size: 30px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -70,6 +70,16 @@ footer{
     padding: 10px;
 }
 
+input{
+    border-radius: 5px;
+    border-style: none;
+    width: 66.6%;
+}
+
+main{
+    padding-top: 10%;
+}
+
 .center{
     margin: auto;
 }
@@ -82,6 +92,15 @@ footer{
 
 .ytext{
     color: #FFD400 !important;
+}
+
+.pad{
+    padding: 10px 5px;
+    background-color: rgba(23, 46, 58, 0.705);
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 
